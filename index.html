@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <center>
+        <h1>Application form for internet banking</h1>
+    </center>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+    <fieldset>
+    <P>We request you to register my/our application for internet banking facility & link my/our accounts to your branch/ other branches with following right now choose one </P> <br>
+    <input type="checkbox"><span>transaction rights</span> <br>
+    <input type="checkbox"><span>view only</span> <br>
+    <label for="application No."> Application No.</label>
+    <input type="text" id="application No." name="application no."> <br>
+    <label for="customer id">Customer Id</label>
+    <input type="text" maxlength="9" id="customer id" name="customer id"> <br>
+    <label for="account no.">Account No.</label>
+    <input type="tel"maxlength="12" id="account no." name="account no."> <br>
+    <label for="name">Name Of The Account Holder</label>
+    <input type="text" id="name" name="holder name"> <br>
+    <label for="date of birth">Date of Birth</label>
+    <input type="date" id="date of birth" name="DOB">
+    <label for="maritual status">Maritual Status</label>
+    <select name="maritual status" id="maritual status">
+        <optgroup>
+            <option></option>
+            <option>married</option>
+            <option>unmarried</option>
+        </optgroup>
+    </select> <br>
+    <label for="anniversary">Marriage Anniversary Date</label>
+    <input type="date" id="anniversary" name="anniversary date"> <br>
+    <label for="residential">Residential Status</label>
+        <select name="residential" id="residential">
+    <input type="checkbox" ><span>resident</span>
+    <input type="checkbox"><span>non resident</span> <br>
+        </select>
+    <label for="occupation">occupation</label>
+    <input type="text" id="occupation" name="occupation"> <br>
+    <label for="user">Preffered user id</label> 
+    <input type="text" id="user"  name="user"> <br>
+    <label for="address">communication address</label>
+    <input type="text" id="address" name="address"> <br>
+    <label for="po box">PO Box No.</label>
+    <input type="number" id="po box" name="po box id">
+    <label for="postal">postal code</label>
+    <input type="number"  max="6" id="postal" name="postal">
+    <label for="place">place</label>
+    <input type="text" id="place" name="place"> <br>
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country"> <br>
+    <label for="email">Email address</label>
+    <input type="email" id="email" name="email"> <br>
+    <label for="mobile">mobile No</label>
+    <input type="tel"  id="mobile" name="mobile">
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Details of exixting accounts to be linked for internet banking (if space is insuuficient attach additional sheet)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>branch name</td>
+                <td>name of the account holder</td>
+                <td>account no.</td>
+                <td>mode of operation</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>self E or S/Anyone or survivour/survivors</td>
+
+            </tr>
+            <tr>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+                <td>   </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    </fieldset>
+     <input type="submit">
+    </form>
+    
+</body>
+</html>
